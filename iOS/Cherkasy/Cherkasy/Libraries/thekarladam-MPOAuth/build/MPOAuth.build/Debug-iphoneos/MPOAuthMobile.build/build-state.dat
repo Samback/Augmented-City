@@ -1,0 +1,376 @@
+TMPOAuthMobile
+v4
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/MPOAuthMobile.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/Info.plist MPOAuthMobile-Info.plist
+cCompileXIB /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Resources-iPhone/MainWindow.xib
+cCompileXIB /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Resources-iPhone/RootViewController.xib
+cCopyPlistFile /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/oauthAutoConfig.plist Resources/oauthAutoConfig.plist
+cCpResource "build/Debug-iphoneos/Mobile Unit Tests.octest" "build/Debug-iphoneos/MPOAuthMobile.app/Mobile Unit Tests.octest"
+cCompileXIB /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Resources-iPhone/UserAuthViewController.xib
+cProcessPCH /var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch.pth MPOAuthMobile_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/main.o "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/RootViewController.o "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/RootViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/MPOAuthMobileAppDelegate.o "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/MPOAuthMobileAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/UserAuthViewController.o "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/UserAuthViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile normal armv7
+cGenerateDSYMFile /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app.dSYM /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile
+cProcessProductPackaging "/Users/dirkgroten/Library/MobileDevice/Provisioning Profiles/A1B462A8-7B20-4005-ADD2-98E7198EA7B7.mobileprovision" /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/dirkgroten/Library/MobileDevice/Provisioning Profiles/A1B462A8-7B20-4005-ADD2-98E7198EA7B7.mobileprovision" /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/embedded.mobileprovision
+cTouch /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile.xcent
+cCodeSign /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E8DCAE50000000000000110
+t1317915365
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004E72F3370000000000001534
+t1316156215
+s5428
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004E72F23A00000000000CCA60
+t1316155962
+s838240
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004E7808770000000000000BCB
+t1316489335
+s3019
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/lib/libxml2.dylib
+c000000004E72F24100000000001F2D30
+t1316155969
+s2043184
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/MPOAuthMobile_Prefix.pch
+c000000004EF4D1B200000000000000D8
+t1324667314
+s216
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"MPDebug.h"
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Resources-iPhone/MainWindow.xib
+c000000004EF4D1B20000000000002A30
+t1324667314
+s10800
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Resources-iPhone/RootViewController.xib
+c000000004EF4D1B200000000000041BE
+t1324667314
+s16830
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Resources-iPhone/UserAuthViewController.xib
+c000000004EF4D1B20000000000001E93
+t1324667314
+s7827
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Resources/oauthAutoConfig.plist
+c000000004EF4D1B200000000000016C7
+t1324667314
+s5831
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Framework/MPDebug.h
+c000000004EF4D1B200000000000000F1
+t1324667314
+s241
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/MPOAuthMobileAppDelegate.m
+c000000004EF4D1B200000000000006F2
+t1324667314
+s1778
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/RootViewController.m
+c000000004EF4D1B20000000000000D1C
+t1324667314
+s3356
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/UserAuthViewController.m
+c000000004EF4D1B200000000000006F7
+t1324667314
+s1783
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/main.m
+c000000004EF4D1B20000000000000169
+t1324667314
+s361
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app
+t1328880436
+s442
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app.dSYM
+t1328880436
+s102
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/Info.plist
+t1328880434
+s995
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile
+t1328880436
+s161536
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MainWindow.nib
+t1328880435
+s1508
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/Mobile Unit Tests.octest
+t1328880434
+s170
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/PkgInfo
+t1328880434
+s8
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/ResourceRules.plist
+t1328880434
+s485
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/RootViewController.nib
+t1328880435
+s2890
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/UserAuthViewController.nib
+t1328880435
+s1060
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/embedded.mobileprovision
+t1328880436
+s34827
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/oauthAutoConfig.plist
+t1328880434
+s2878
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/Mobile Unit Tests.octest
+c000000004F351B3200000000000000AA
+t1328880434
+s170
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/libMPOAuthMobile.a
+c000000004F34F4DE0000000000058020
+t1328870622
+s360480
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile.xcent
+t2
+s0
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/MPOAuthMobile.LinkFileList
+c000000004F351B3400000000000002E4
+t1328880436
+s740
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/MPOAuthMobileAppDelegate.o
+t2
+s0
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/RootViewController.o
+t2
+s0
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/UserAuthViewController.o
+t2
+s0
+
+N/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/dirkgroten/Library/MobileDevice/Provisioning Profiles/A1B462A8-7B20-4005-ADD2-98E7198EA7B7.mobileprovision
+c000000004F2FC1EE000000000000880B
+t1328529902
+s34827
+
+N/var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch.pth
+t2
+s0
+
+NMPOAuthMobile-Info.plist
+c000000004EF4D1B20000000000000480
+t1324667314
+s1152
+
+CBuild AST from "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/MPOAuthMobileAppDelegate.m"
+r0
+
+CBuild AST from "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/RootViewController.m"
+r0
+
+CBuild AST from "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/UserAuthViewController.m"
+r0
+
+CBuild AST from "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc0e9e5b452e5b441^e657ebb452e5b441^---0#1#0#--18"Check dependencies36"892F2DB4-B37D-4E73-8BD7-27E867BFB785-
+
+CCodeSign /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app
+s350573237.689279
+e350573237.900139
+r1
+xCodeSign
+x/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"CodeSign build/Debug-iphoneos/MPOAuthMobile.appd788b0b552e5b441^4c70e6b552e5b441^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/0000000000000000^926"CodeSign build/Debug-iphoneos/MPOAuthMobile.app    cd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Dirk Groten (KP72VXTH2Y)" --resource-rules=/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/ResourceRules.plist --entitlements /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile.xcent /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app36"0A4344C4-4E01-499F-B8FC-BC348857802C-
+
+CCompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/MPOAuthMobileAppDelegate.o "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/MPOAuthMobileAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350573237.227023
+e350573237.409165
+r1
+xCompileC
+xbuild/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/MPOAuthMobileAppDelegate.o
+x/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/MPOAuthMobileAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Compile /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/MPOAuthMobileAppDelegate.m834c3ab552e5b441^8d7d69b552e5b441^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile%20Test%20App/MPOAuthMobileAppDelegate.m0000000000000000^3232"CompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/MPOAuthMobileAppDelegate.o "Source/Mobile Test App/MPOAuthMobileAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-generated-files.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-own-target-headers.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-all-target-headers.hmap -iquote /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-project-headers.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/include -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/DerivedSources/armv7 -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/DerivedSources -F/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos -DDEBUG=1 -include /var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch -MMD -MT dependencies -MF /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/MPOAuthMobileAppDelegate.d -c "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/MPOAuthMobileAppDelegate.m" -o /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/MPOAuthMobileAppDelegate.o36"8EB6AC61-7A2C-4732-9721-75B56EB1EE1E-
+
+CCompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/RootViewController.o "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/RootViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350573237.226990
+e350573237.416863
+r1
+xCompileC
+xbuild/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/RootViewController.o
+x/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/RootViewController.m15903ab552e5b441^4ab66ab552e5b441^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile%20Test%20App/RootViewController.m0000000000000000^3202"CompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/RootViewController.o "Source/Mobile Test App/RootViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-generated-files.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-own-target-headers.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-all-target-headers.hmap -iquote /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-project-headers.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/include -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/DerivedSources/armv7 -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/DerivedSources -F/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos -DDEBUG=1 -include /var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch -MMD -MT dependencies -MF /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/RootViewController.d -c "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/RootViewController.m" -o /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/RootViewController.o36"06D15CB7-272F-4DDB-A7A1-4F8B1BA19BBD-
+
+CCompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/UserAuthViewController.o "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/UserAuthViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350573237.228327
+e350573237.409113
+r1
+xCompileC
+xbuild/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/UserAuthViewController.o
+x/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/UserAuthViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Compile /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/UserAuthViewController.m2c9a3ab552e5b441^147669b552e5b441^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile%20Test%20App/UserAuthViewController.m0000000000000000^3222"CompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/UserAuthViewController.o "Source/Mobile Test App/UserAuthViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-generated-files.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-own-target-headers.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-all-target-headers.hmap -iquote /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-project-headers.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/include -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/DerivedSources/armv7 -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/DerivedSources -F/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos -DDEBUG=1 -include /var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch -MMD -MT dependencies -MF /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/UserAuthViewController.d -c "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/UserAuthViewController.m" -o /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/UserAuthViewController.o36"DC1D6BE1-B517-47F0-A87E-7A87CA946B8D-
+
+CCompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/main.o "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350573237.217171
+e350573237.328900
+r1
+xCompileC
+xbuild/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/main.o
+x/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/main.m63f23ab552e5b441^6da854b552e5b441^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile%20Test%20App/main.m0000000000000000^3132"CompileC build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/main.o "Source/Mobile Test App/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-generated-files.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-own-target-headers.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-all-target-headers.hmap -iquote /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-project-headers.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/include -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/DerivedSources/armv7 -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/DerivedSources -F/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos -DDEBUG=1 -include /var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch -MMD -MT dependencies -MF /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/main.d -c "/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Source/Mobile Test App/main.m" -o /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/main.o36"5D856EE3-94CD-457D-8242-35463D07EEE0-
+
+CCompileXIB /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Resources-iPhone/MainWindow.xib
+r0
+
+CCompileXIB /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Resources-iPhone/RootViewController.xib
+r0
+
+CCompileXIB /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/Resources-iPhone/UserAuthViewController.xib
+r0
+
+CCopyPlistFile /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/oauthAutoConfig.plist Resources/oauthAutoConfig.plist
+r0
+
+CCpResource "build/Debug-iphoneos/Mobile Unit Tests.octest" "build/Debug-iphoneos/MPOAuthMobile.app/Mobile Unit Tests.octest"
+r0
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Debug-iphoneos/MPOAuthMobile.app/ResourceRules.plist
+r0
+
+CGenerateDSYMFile /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app.dSYM /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile
+s350573237.508552
+e350573237.562303
+r1
+xGenerateDSYMFile
+x/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app.dSYM
+x/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Generating /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app.dSYM2f6f82b552e5b441^1ff58fb552e5b441^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app.dSYM/0000000000000000^644"GenerateDSYMFile build/Debug-iphoneos/MPOAuthMobile.app.dSYM build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile    cd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile -o /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app.dSYM36"31D44CBF-C49D-4720-A660-912547401594-
+
+CLd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile normal armv7
+s350573237.423696
+e350573237.477432
+r1
+xLd
+x/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Link /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile9a966cb552e5b441^82397ab552e5b441^---0#0#0#--1222"Ld build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile normal armv7    cd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos -F/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos -filelist /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/Objects-normal/armv7/MPOAuthMobile.LinkFileList -dead_strip -ObjC -all_load -miphoneos-version-min=5.0 -framework Foundation -framework UIKit -framework CoreGraphics -lMPOAuthMobile -lxml2 -framework Security -o /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/MPOAuthMobile36"F44B9FFB-95F4-41F0-9BE6-DEC3BC9AD1B5-
+
+CProcessInfoPlistFile /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/Info.plist MPOAuthMobile-Info.plist
+r0
+
+CProcessPCH /Users/dirkgroten/Library/Developer/Xcode/DerivedData/Layar-hjkdrvtfqrfrrfegexqoejvoszmd/Index/PrecompiledHeaders/MPOAuthMobile_Prefix-hfuvgisvdmwvpwgaukusymbgrvfb_ast/MPOAuthMobile_Prefix.pch.pth MPOAuthMobile_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch.pth MPOAuthMobile_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350573236.942786
+e350573237.209388
+r1
+xProcessPCH
+x/var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch.pth
+xMPOAuthMobile_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile MPOAuthMobile_Prefix.pch6074f1b452e5b441^47ac35b552e5b441^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/MPOAuthMobile_Prefix.pch0000000000000000^3039"ProcessPCH /var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch.pth MPOAuthMobile_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-generated-files.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-own-target-headers.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-all-target-headers.hmap -iquote /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile-project-headers.hmap -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/include -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/DerivedSources/armv7 -I/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/DerivedSources -F/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos -DDEBUG=1 -c /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/MPOAuthMobile_Prefix.pch -o /var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/n1/dltm2gj11d363cyz_mhfrk_r0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/MPOAuthMobile_Prefix-fsfdwnvaeuhyaraosmpslufktgtm/MPOAuthMobile_Prefix.pch.d36"45651FCF-530E-4975-9B86-3171FF66E7AA-
+
+CProcessProductPackaging "/Users/dirkgroten/Library/MobileDevice/Provisioning Profiles/A1B462A8-7B20-4005-ADD2-98E7198EA7B7.mobileprovision" /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile.xcent
+s350573237.649544
+e350573237.667613
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile.xcent855ba6b552e5b441^5ce8aab552e5b441^---0#0#0#-19%DVTDocumentLocation2@179"file://localhost/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile.xcent00f4d098dcffdf42^726"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile.xcent    cd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/MPOAuth.build/Debug-iphoneos/MPOAuthMobile.build/MPOAuthMobile.xcent36"12A0C635-9E73-48A1-9DE7-3AD9B83CCE27-
+
+CTouch /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app
+s350573237.617334
+e350573237.640500
+r1
+xTouch
+x/Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Touch /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app581c9eb552e5b441^59f7a3b552e5b441^---0#0#0#--415"Touch build/Debug-iphoneos/MPOAuthMobile.app    cd /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dirkgroten/Documents/Layar/Sources/iphone/LayarCore/libraries/thekarladam-MPOAuth/build/Debug-iphoneos/MPOAuthMobile.app36"FAD9943E-23DD-4C8E-B459-A37C95D212E6-
+
