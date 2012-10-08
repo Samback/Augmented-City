@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5099DE5E162365FC00419664 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5099DE5D162365FC00419664 /* UIKit.framework */; };
+		5099DE60162365FC00419664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5099DE5F162365FC00419664 /* Foundation.framework */; };
+		5099DE62162365FC00419664 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5099DE61162365FC00419664 /* CoreGraphics.framework */; };
+		5099DE68162365FC00419664 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5099DE66162365FC00419664 /* InfoPlist.strings */; };
+		5099DE6A162365FC00419664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5099DE69162365FC00419664 /* main.m */; };
+		5099DE6E162365FC00419664 /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5099DE6D162365FC00419664 /* ARAppDelegate.m */; };
+		5099DE70162365FC00419664 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5099DE6F162365FC00419664 /* Default.png */; };
+		5099DE72162365FC00419664 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5099DE71162365FC00419664 /* Default@2x.png */; };
+		5099DE74162365FC00419664 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5099DE73162365FC00419664 /* Default-568h@2x.png */; };
+		5099DE77162365FC00419664 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5099DE75162365FC00419664 /* MainStoryboard.storyboard */; };
+		5099DE7A162365FC00419664 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5099DE79162365FC00419664 /* ARViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5099DE59162365FC00419664 /* Cherkasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cherkasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5099DE5D162365FC00419664 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5099DE5F162365FC00419664 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5099DE61162365FC00419664 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5099DE65162365FC00419664 /* Cherkasy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cherkasy-Info.plist"; sourceTree = "<group>"; };
+		5099DE67162365FC00419664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5099DE69162365FC00419664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5099DE6B162365FC00419664 /* Cherkasy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cherkasy-Prefix.pch"; sourceTree = "<group>"; };
+		5099DE6C162365FC00419664 /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		5099DE6D162365FC00419664 /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		5099DE6F162365FC00419664 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5099DE71162365FC00419664 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5099DE73162365FC00419664 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5099DE76162365FC00419664 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5099DE78162365FC00419664 /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		5099DE79162365FC00419664 /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5099DE56162365FC00419664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5099DE5E162365FC00419664 /* UIKit.framework in Frameworks */,
+				5099DE60162365FC00419664 /* Foundation.framework in Frameworks */,
+				5099DE62162365FC00419664 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5099DE4E162365FC00419664 = {
+			isa = PBXGroup;
+			children = (
+				5099DE63162365FC00419664 /* Cherkasy */,
+				5099DE5C162365FC00419664 /* Frameworks */,
+				5099DE5A162365FC00419664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5099DE5A162365FC00419664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5099DE59162365FC00419664 /* Cherkasy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5099DE5C162365FC00419664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5099DE5D162365FC00419664 /* UIKit.framework */,
+				5099DE5F162365FC00419664 /* Foundation.framework */,
+				5099DE61162365FC00419664 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5099DE63162365FC00419664 /* Cherkasy */ = {
+			isa = PBXGroup;
+			children = (
+				5099DE6C162365FC00419664 /* ARAppDelegate.h */,
+				5099DE6D162365FC00419664 /* ARAppDelegate.m */,
+				5099DE75162365FC00419664 /* MainStoryboard.storyboard */,
+				5099DE78162365FC00419664 /* ARViewController.h */,
+				5099DE79162365FC00419664 /* ARViewController.m */,
+				5099DE64162365FC00419664 /* Supporting Files */,
+			);
+			path = Cherkasy;
+			sourceTree = "<group>";
+		};
+		5099DE64162365FC00419664 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5099DE65162365FC00419664 /* Cherkasy-Info.plist */,
+				5099DE66162365FC00419664 /* InfoPlist.strings */,
+				5099DE69162365FC00419664 /* main.m */,
+				5099DE6B162365FC00419664 /* Cherkasy-Prefix.pch */,
+				5099DE6F162365FC00419664 /* Default.png */,
+				5099DE71162365FC00419664 /* Default@2x.png */,
+				5099DE73162365FC00419664 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5099DE58162365FC00419664 /* Cherkasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5099DE7D162365FC00419664 /* Build configuration list for PBXNativeTarget "Cherkasy" */;
+			buildPhases = (
+				5099DE55162365FC00419664 /* Sources */,
+				5099DE56162365FC00419664 /* Frameworks */,
+				5099DE57162365FC00419664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cherkasy;
+			productName = Cherkasy;
+			productReference = 5099DE59162365FC00419664 /* Cherkasy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5099DE50162365FC00419664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Max Tymchii";
+			};
+			buildConfigurationList = 5099DE53162365FC00419664 /* Build configuration list for PBXProject "Cherkasy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5099DE4E162365FC00419664;
+			productRefGroup = 5099DE5A162365FC00419664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5099DE58162365FC00419664 /* Cherkasy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5099DE57162365FC00419664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5099DE68162365FC00419664 /* InfoPlist.strings in Resources */,
+				5099DE70162365FC00419664 /* Default.png in Resources */,
+				5099DE72162365FC00419664 /* Default@2x.png in Resources */,
+				5099DE74162365FC00419664 /* Default-568h@2x.png in Resources */,
+				5099DE77162365FC00419664 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5099DE55162365FC00419664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5099DE6A162365FC00419664 /* main.m in Sources */,
+				5099DE6E162365FC00419664 /* ARAppDelegate.m in Sources */,
+				5099DE7A162365FC00419664 /* ARViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5099DE66162365FC00419664 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5099DE67162365FC00419664 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5099DE75162365FC00419664 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5099DE76162365FC00419664 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5099DE7B162365FC00419664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5099DE7C162365FC00419664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5099DE7E162365FC00419664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cherkasy/Cherkasy-Prefix.pch";
+				INFOPLIST_FILE = "Cherkasy/Cherkasy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5099DE7F162365FC00419664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cherkasy/Cherkasy-Prefix.pch";
+				INFOPLIST_FILE = "Cherkasy/Cherkasy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5099DE53162365FC00419664 /* Build configuration list for PBXProject "Cherkasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5099DE7B162365FC00419664 /* Debug */,
+				5099DE7C162365FC00419664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5099DE7D162365FC00419664 /* Build configuration list for PBXNativeTarget "Cherkasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5099DE7E162365FC00419664 /* Debug */,
+				5099DE7F162365FC00419664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5099DE50162365FC00419664 /* Project object */;
+}
