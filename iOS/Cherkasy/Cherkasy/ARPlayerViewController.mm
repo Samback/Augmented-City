@@ -37,11 +37,11 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)playClick:(UIButton *)sender {
-    NSString *layerName = @"layername";
-    NSString *consumerKey = @"consumerkey";
-    NSString *consumerSecret = @"consumersecret";
+    NSString *layerName = @"cherkasy2013";//cherkasy2013
+    NSString *consumerKey = @"cherkasy2013";
+    NSString *consumerSecret = @"2013cherkasy";
     
-    NSArray *oauthKeys = [NSArrayarrayWithObjects:LPConsumerKeyParameterKey, LPConsumerSecretParameterKey, nil];
+    NSArray *oauthKeys = [NSArray arrayWithObjects:LPConsumerKeyParameterKey, LPConsumerSecretParameterKey, nil];
     NSArray *oauthValues = [NSArray arrayWithObjects:consumerKey, consumerSecret, nil];
     NSDictionary *oauthParameters = [NSDictionary dictionaryWithObjects:oauthValues forKeys:oauthKeys];
     NSArray *layerKeys = [NSArray arrayWithObject:@"radius"];
@@ -54,7 +54,7 @@
     
     [self presentModalViewController:augmentedRealityViewController animated:YES];
     
-    [augmentedRealityViewController loadLayerWithName:layerName oauthParameters:oauthParameters parameters:layerFilters options:LPMapViewDisabled | LPListViewDisabled];
+    [augmentedRealityViewController loadLayerWithName:layerName oauthParameters:oauthParameters parameters:layerFilters options:LPAllViewsEnabled];
 }
 
 - (void)viewDidUnload {
